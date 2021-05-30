@@ -1,9 +1,9 @@
 <?php
 include 'Customer.php';
   $customer1 = new Customer();
-  $customer1->signUp('Saad@gmail.com', '1258', 3);
+  $customer1->logIn('Saad@gmail.com', '12589');
+  $customer1->editProfile('Saad@gmail.com', '1221');
 
-//  $customer1->logIn('Ahmed@gmail.com', '123456');
 
   
 
